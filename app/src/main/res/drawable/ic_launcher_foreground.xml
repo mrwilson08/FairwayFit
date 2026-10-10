@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- green mound -->
+    <path
+        android:fillColor="#2F7A44"
+        android:pathData="M24,82 Q54,64 84,82 L84,88 L24,88 Z" />
+    <!-- flag pole -->
+    <path
+        android:fillColor="#B8F26B"
+        android:pathData="M52,30 L55,30 L55,76 L52,76 Z" />
+    <!-- flag -->
+    <path
+        android:fillColor="#B8F26B"
+        android:pathData="M55,30 L78,40 L55,50 Z" />
+    <!-- ball -->
+    <path
+        android:fillColor="#E6EFE8"
+        android:pathData="M66,77 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+</vector>

@@ -1,0 +1,35 @@
+{
+  "name": "fairwayfit",
+  "author": "Mike Wilson",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "FairwayFit",
+    "uuid": "89E32D04-9641-4ACE-9AA5-70DFCD8150B7",
+    "sdkVersion": "3",
+    "enableMultiJS": false,
+    "watchapp": { "watchface": false },
+    "targetPlatforms": ["basalt", "diorite", "emery", "flint", "gabbro", "chalk"],
+    "resources": { "media": [] },
+    "messageKeys": {
+      "TYPE": 0,
+      "TITLE": 1,
+      "DETAIL": 2,
+      "PHASE": 3,
+      "AMOUNT": 4,
+      "PROGRESS": 5,
+      "SCORE": 6,
+      "WEEK": 7,
+      "COMMAND": 8
+    },
+    "companionApp": {
+      "android": {
+        "apps": [
+          { "package": "com.fairwayfit.app", "url": "https://example.com/fairwayfit" }
+        ]
+      }
+    }
+  }
+}
